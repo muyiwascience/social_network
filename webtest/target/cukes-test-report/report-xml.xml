@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="42.912825">
+<testcase classname="Confirm a news article is valid" name="Valid news article" time="42.912825">
+<system-out><![CDATA[Given I am on the home page.................................................passed
+When I check a news article.................................................passed
+Then I should a valid news article..........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

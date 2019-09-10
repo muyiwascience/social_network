@@ -1,0 +1,89 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2901179526,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GeneralHooks.testSetUp()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Valid news article",
+        "description": "",
+        "id": "confirm-a-news-article-is-valid;valid-news-article",
+        "after": [
+          {
+            "result": {
+              "duration": 269242248,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GeneralHooks.testCleanUp(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 39287536782,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on the home page",
+            "match": {
+              "location": "NewsSteps.iAmOnTheHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 187413526,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I check a news article",
+            "match": {
+              "location": "NewsSteps.iCheckANewsArticle()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 267452858,
+              "status": "passed"
+            },
+            "output": [
+              "The Scenario name is Valid news article and the status is passed"
+            ],
+            "line": 10,
+            "name": "I should a valid news article",
+            "match": {
+              "location": "NewsSteps.iShouldAValidNewsArticle()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Confirm a news article is valid",
+    "description": "As a product owner\nI want to check the guardian news on line\nSo I can confirm that news article is valid",
+    "id": "confirm-a-news-article-is-valid",
+    "keyword": "Feature",
+    "uri": "News.feature"
+  }
+]

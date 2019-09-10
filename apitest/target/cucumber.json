@@ -1,0 +1,166 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 722196185,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberSteps.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Check list of users on the social network site",
+        "description": "",
+        "id": "gist-list-of-items-from-the-end-point;check-list-of-users-on-the-social-network-site",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 501176851,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigate to the api URI",
+            "match": {
+              "location": "CucumberSteps.i_navigate_to_the_api_URI()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4650433444,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I get a list of users from the end point and verify the HTTP response \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 71
+                }
+              ],
+              "location": "CucumberSteps.iGetAListOfUsersFromTheEndPointAndVerifyTheHTTPResponse(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ListOfUsers"
+          }
+        ]
+      }
+    ],
+    "name": "Gist list of items from the end-point",
+    "description": "",
+    "id": "gist-list-of-items-from-the-end-point",
+    "keyword": "Feature",
+    "uri": "src/test/resources/aGetListOfUsers.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2253604,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberSteps.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Make a post to the social network site",
+        "description": "",
+        "id": "make-a-post;make-a-post-to-the-social-network-site",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 61615,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigate to the api URI",
+            "match": {
+              "location": "CucumberSteps.i_navigate_to_the_api_URI()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1454593800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I make a post using these data \"12\" \"101\" \"I love this city\" \"I like everybody there\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12",
+                  "offset": 32
+                },
+                {
+                  "val": "101",
+                  "offset": 37
+                },
+                {
+                  "val": "I love this city",
+                  "offset": 43
+                },
+                {
+                  "val": "I like everybody there",
+                  "offset": 62
+                }
+              ],
+              "location": "CucumberSteps.iMakeAPostUsingTheseData(String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 538657,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I get Http response code \"201\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "201",
+                  "offset": 26
+                }
+              ],
+              "location": "CucumberSteps.i_get_Http_response_code(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PostData"
+          }
+        ]
+      }
+    ],
+    "name": "Make a Post",
+    "description": "",
+    "id": "make-a-post",
+    "keyword": "Feature",
+    "uri": "src/test/resources/bMakePost.feature",
+    "tags": []
+  }
+]

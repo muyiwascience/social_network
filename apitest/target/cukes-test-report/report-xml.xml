@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.541785">
+<testcase classname="Getting records" name="users make post via the services" time="0.541785">
+<system-out><![CDATA[Given I have access to webapi without authentication........................passed
+When I make post via the services...........................................passed
+Then I should posts displayed...............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
